@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+	  "target": "ES5", // so older browsers work as well
+	  "module": "ESNext", // latest version of ECMAScript
+	  "moduleResolution": "node",
+	  "lib": [
+		"DOM",
+		"ESNext",
+	  ],
+	  "jsx": "react-jsx", // leave out 'import react'
+	  "noEmit": true,
+	  "isolatedModules": true,
+	  "esModuleInterop": true, // allows importing '*' as something
+	  "strict": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "resolveJsonModule": true,
+	},
+	"include": ["src/**/*"], // only monitor changes within the source folder
+  }
